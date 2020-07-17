@@ -5,5 +5,12 @@ function currentDate(){
     let d = n.getDate();
     document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
 }
+window.onload = displayClock();
+function displayClock(){
+    let time = new Date().toLocaleDateString();
+
+    document.getElementById("clock").innerHTML = time;
+    setTimeout(displayClock, 1000);
+}
 
 currentDate();
