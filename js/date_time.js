@@ -7,7 +7,7 @@ function currentDate(){
 }
 window.onload = displayClock();
 function displayClock(){
-    let time = new Date().toLocaleDateString();
+    let time = new Date().toLocaleTimeString();
 
     document.getElementById("clock").innerHTML = time;
     setTimeout(displayClock, 1000);
