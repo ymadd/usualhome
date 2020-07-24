@@ -1,0 +1,6 @@
+#clock{
+    text-align: center;
+    color: var(--fg);
+    font-size: 56px;
+    font-weight: 800;
+}
