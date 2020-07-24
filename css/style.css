@@ -19,7 +19,7 @@
 #searchbox{
     text-align: center;
 }
-.container-items{
+.containers{
     display: grid;
     width: 100%;
     max-width: 1200px;
