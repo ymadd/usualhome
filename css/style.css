@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-size: 13.5px;
 }
+h1{
+    font-size: x-large;
+    font-weight: 600;
+    text-align: center;
+}
 #clock{
     text-align: center;
     color: var(--fg);
@@ -19,6 +24,7 @@
 #searchbox{
     text-align: center;
 }
+
 .containers{
     display: grid;
     width: 100%;
@@ -28,4 +34,16 @@
     grid-template-columns: repeat(auto-fill, minmax(20em,1fr));
 
     grid-gap: 20px;
+}
+.work-container{
+    background-color: #282828;
+    color: #e8e8e8;
+    font-size: 20px;
+    padding: 40px !important;
+}
+.work-container h1{
+    background-color: aqua;
+    padding: 5px;
+    margin-bottom: 20px;
+    color: black;
 }
