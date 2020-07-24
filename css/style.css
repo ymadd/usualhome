@@ -47,3 +47,10 @@ h1{
     margin-bottom: 20px;
     color: black;
 }
+.work-container ul{
+    list-style: none;
+    text-align: center;
+}
+.work-container li{
+    margin: 10px;
+}
