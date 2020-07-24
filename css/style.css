@@ -52,5 +52,45 @@ h1{
     text-align: center;
 }
 .work-container li{
-    margin: 10px;
+    margin: 5px;
+}
+
+.sns-container{
+    background-color: #282828;
+    color: #e8e8e8;
+    font-size: 20px;
+    padding: 40px !important;
+}
+.sns-container h1{
+    background-color: limegreen;
+    padding: 5px;
+    margin-bottom: 20px;
+    color: black;
+}
+.sns-container ul{
+    list-style: none;
+    text-align: center;
+}
+.sns-container li{
+    margin: 5px;
+}
+
+.other-container{
+    background-color: #282828;
+    color: #e8e8e8;
+    font-size: 20px;
+    padding: 40px !important;
+}
+.other-container h1{
+    background-color: brown;
+    padding: 5px;
+    margin-bottom: 20px;
+    color: black;
+}
+.other-container ul{
+    list-style: none;
+    text-align: center;
+}
+.other-container li{
+    margin: 5px;
 }
