@@ -1,9 +1,21 @@
+:root{
+    --fg: #999999;
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 13.5px;
 }
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 h1{
     font-size: x-large;
     font-weight: 600;
@@ -14,21 +26,24 @@ h1{
     color: var(--fg);
     font-size: 56px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 #date{
     text-align: center;
     color: var(--fg);
     font-size: 30px;
     font-weight: bold;
+    margin-bottom: 50px;
 }
 #searchbox{
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .containers{
     display: grid;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 
     grid-template-columns: repeat(auto-fill, minmax(20em,1fr));
@@ -38,6 +53,7 @@ h1{
 .work-container{
     background-color: #282828;
     color: #e8e8e8;
+    opacity: 0.8;
     font-size: 20px;
     padding: 40px !important;
 }
@@ -54,10 +70,16 @@ h1{
 .work-container li{
     margin: 5px;
 }
+.work-container a{
+    text-decoration: none;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
 
 .sns-container{
     background-color: #282828;
     color: #e8e8e8;
+    opacity: 0.8;
     font-size: 20px;
     padding: 40px !important;
 }
@@ -74,10 +96,17 @@ h1{
 .sns-container li{
     margin: 5px;
 }
+.sns-container a{
+    text-decoration: none;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
 
 .other-container{
     background-color: #282828;
     color: #e8e8e8;
+    opacity: 0.8;
     font-size: 20px;
     padding: 40px !important;
 }
@@ -94,3 +123,9 @@ h1{
 .other-container li{
     margin: 5px;
 }
+.other-container a{
+    text-decoration: none;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
